@@ -309,6 +309,13 @@ button[type="submit"]:hover {
     max-width: 200px;
   }
 }
+.profile-form-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
 
 @media (max-width: 480px) {
   .login-title {
