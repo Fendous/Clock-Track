@@ -104,6 +104,17 @@ body {
 .overview-tab:hover {
     background-color: #17a2b8;
 }
+.btn-pink {
+  background-color:  #7416c0; 
+  border-color: #FF69B4;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: hwb(273 15% 47%);  /* Deeper pink on hover */
+  border-color: #FF1493;
+  color: white;
+}
 
 /* Clocks Container */
 .clocks-container {
@@ -243,34 +254,6 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
-}
-
-/* Form elements */
-input[type="text"],
-input[type="password"],
-input[type="email"] {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-button[type="submit"] {
-  width: 100%;
-  padding: 0.75rem;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-  background-color: #0056b3;
 }
 
 /* Footer styles */
